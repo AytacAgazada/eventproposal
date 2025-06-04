@@ -31,5 +31,4 @@ public class EventProposalEntity {
     private Timestamp createdAt;
     private Timestamp updatedAt;
 
-
 }

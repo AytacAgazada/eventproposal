@@ -36,3 +36,4 @@ public class EventProposalDto {
     @NotNull(message = "Priority is required")
     private Priority priority;
 }
+

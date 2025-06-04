@@ -48,4 +48,5 @@ public class EventProposalController {
         service.deleteProposal(id);
         return ResponseEntity.noContent().build();
     }
+
 }

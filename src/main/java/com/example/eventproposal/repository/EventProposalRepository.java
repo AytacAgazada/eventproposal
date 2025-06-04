@@ -8,5 +8,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface EventProposalRepository extends JpaRepository<EventProposalEntity,Long> {
+
     Page<EventProposalEntity> findAllByStatus(Status s, org.springframework.data.domain.Pageable pageable);
+
 }

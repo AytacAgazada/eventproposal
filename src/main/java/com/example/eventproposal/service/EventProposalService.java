@@ -20,7 +20,6 @@ public class EventProposalService {
 
     private final EventProposalRepository repository;
 
-    @Autowired
     public EventProposalService(EventProposalRepository repository) {
         this.repository = repository;
     }

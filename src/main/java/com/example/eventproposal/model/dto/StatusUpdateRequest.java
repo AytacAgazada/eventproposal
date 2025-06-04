@@ -9,3 +9,4 @@ public class StatusUpdateRequest {
     @NotNull(message = "Status is required")
     private Status status;
 }
+
